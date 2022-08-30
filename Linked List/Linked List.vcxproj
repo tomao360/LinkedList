@@ -127,7 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Class work_1-Linked List.c" />
+    <ClCompile Include="HW1_3.c" />
+    <ClCompile Include="Class work1-Linked List.c" />
+    <ClCompile Include="Class-examples1-Linked List.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

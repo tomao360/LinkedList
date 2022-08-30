@@ -18,8 +18,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Class work_1-Linked List.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Class-examples1-Linked List.c">
+      <Filter>Source Files\Lesson2-29_8</Filter>
+    </ClCompile>
+    <ClCompile Include="HW1_3.c">
+      <Filter>Source Files\Lesson2-29_8</Filter>
+    </ClCompile>
+    <ClCompile Include="Class work1-Linked List.c">
+      <Filter>Source Files\Lesson2-29_8</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

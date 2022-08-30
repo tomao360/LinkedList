@@ -1,2 +1,4 @@
-﻿  Class work_1-Linked List.c
+﻿  HW1_3.c
+C:\Users\97252\source\repos\Linked List\Linked List\HW1_3.c(60,11): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'Item **'
+C:\Users\97252\source\repos\Linked List\Linked List\HW1_3.c(60,11): warning C4313: 'printf': '%d' in format string conflicts with argument 2 of type 'Item **'
   Linked List.vcxproj -> C:\Users\97252\source\repos\Linked List\x64\Debug\Linked List.exe
