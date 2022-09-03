@@ -16,16 +16,25 @@
     <Filter Include="Source Files\Lesson2-29_8">
       <UniqueIdentifier>{12021ddf-3bfb-4d85-8c9e-3f85190a5ce4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Lesson3-31_8">
+      <UniqueIdentifier>{1849c85c-1c94-4719-8d9c-f9579c296fcd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Class-examples1-Linked List.c">
       <Filter>Source Files\Lesson2-29_8</Filter>
     </ClCompile>
-    <ClCompile Include="HW1_3.c">
+    <ClCompile Include="SortedList-HW1_3-6.c">
       <Filter>Source Files\Lesson2-29_8</Filter>
     </ClCompile>
     <ClCompile Include="Class work1-Linked List.c">
       <Filter>Source Files\Lesson2-29_8</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorted List-Student.c">
+      <Filter>Source Files\Lesson3-31_8</Filter>
+    </ClCompile>
+    <ClCompile Include="SortedLinkedList.c">
+      <Filter>Source Files\Lesson3-31_8</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

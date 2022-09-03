@@ -7,10 +7,9 @@ struct Item1
 {
 	int id;
 	int val;
-	struct Item1* next;
+	struct Item1* next; //יכיל את הכתובת של הבא בתור
 };
-
-struct Item1* head1 = NULL;
+struct Item1* head1 = NULL; 
 
 void freeLinkedList()
 {
@@ -38,24 +37,24 @@ int main_2()
 	{
 		currentItem = malloc(sizeof(struct Item1)); 
 
-		if (head1 == NULL)
+		if (head1 == NULL) 
 		{
-			head1 = currentItem;
+			head1 = currentItem; //צריך להידרך פעם אחת, הוא צריך להחזיק את האיבר הראשון וכל השאר ישתרשרו אליו head-ה 
 		}
 		else
 		{
-			prevItem->next = currentItem;
+			prevItem->next = currentItem; //שהאיבר הקודם יצביע על האיבר החדש
+
 		}
 
 		scanf("%d %d", &currentItem->id, &currentItem->val);
-		currentItem->next == NULL; //בגלל שאין עדיין את האיבר הבא
+		currentItem->next = NULL; //בגלל שאין עדיין את האיבר הבא
 
 		printf("Click 1 for Add\n Click 2 for Print All List\n Click 3 for EXit\n");
 		scanf("%d", &userResponse);
 
 
-		prevItem = currentItem;
-
+		prevItem = currentItem; //משווה את הכתובות כדי להביא את הכתוב, של הקודם לכתובת הנוכחית
 	}
 
 	freeLinkedList();
