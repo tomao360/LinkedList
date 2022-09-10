@@ -1,7 +1,2 @@
-﻿  SortedLinkedList.c
-C:\Users\97252\source\repos\Linked List\Linked List\SortedLinkedList.c(27,13): warning C4013: 'time' undefined; assuming extern returning int
-C:\Users\97252\source\repos\Linked List\Linked List\SortedLinkedList.c(28,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\97252\source\repos\Linked List\Linked List\SortedLinkedList.c(67,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\97252\source\repos\Linked List\Linked List\SortedLinkedList.c(277,1): warning C4133: 'initializing': incompatible types - from 'Iitem *' to 'int *'
-C:\Users\97252\source\repos\Linked List\Linked List\SortedLinkedList.c(280,1): warning C4133: 'initializing': incompatible types - from 'Iitem *' to 'int *'
+﻿  LinkedList-Student.c
   Linked List.vcxproj -> C:\Users\97252\source\repos\Linked List\x64\Debug\Linked List.exe

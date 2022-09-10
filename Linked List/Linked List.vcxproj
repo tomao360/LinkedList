@@ -127,10 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="SortedList-HW1_3-6.c" />
+    <ClCompile Include="LinkedList-HW1_3-6.c" />
     <ClCompile Include="Class work1-Linked List.c" />
     <ClCompile Include="Class-examples1-Linked List.c" />
-    <ClCompile Include="Sorted List-Student.c" />
+    <ClCompile Include="LinkedList-Student.c" />
     <ClCompile Include="SortedLinkedList.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

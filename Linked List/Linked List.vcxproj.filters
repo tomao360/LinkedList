@@ -24,13 +24,13 @@
     <ClCompile Include="Class-examples1-Linked List.c">
       <Filter>Source Files\Lesson2-29_8</Filter>
     </ClCompile>
-    <ClCompile Include="SortedList-HW1_3-6.c">
+    <ClCompile Include="LinkedList-HW1_3-6.c">
       <Filter>Source Files\Lesson2-29_8</Filter>
     </ClCompile>
     <ClCompile Include="Class work1-Linked List.c">
       <Filter>Source Files\Lesson2-29_8</Filter>
     </ClCompile>
-    <ClCompile Include="Sorted List-Student.c">
+    <ClCompile Include="LinkedList-Student.c">
       <Filter>Source Files\Lesson3-31_8</Filter>
     </ClCompile>
     <ClCompile Include="SortedLinkedList.c">

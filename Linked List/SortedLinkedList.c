@@ -245,7 +245,7 @@ void LocateBeforeHead(struct Iitem* item)
 {
 	item->next = HEAD;
 	item->prev = NULL;
-	HEAD->prev = item;
+	HEAD->prev = item;  
 	HEAD = item;
 }
 
@@ -260,7 +260,7 @@ void LocateBeforeItem(struct Iitem* newItem, struct Iitem* itemInList)
 
 
 
-int main()
+int main_5()
 {
 	// GenerateList();
 
@@ -275,6 +275,7 @@ int main()
 	printf("\nPlease enter the number you are looking for:\n");
 	scanf("%d", &num2);
 	int* a = FindVal(num2);
+	printf("The number located in this address:%p\n", a);
 
 
 	int* b = ChangeVal(num2, 10);
